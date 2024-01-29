@@ -106,10 +106,10 @@ def data_preprossing(dataset):
 
 
 method = 'original'
-GCN_type = 'Robust_RGNN' #GCN2,GCN3,DCRNN,EVOLVEGCNO,TGCN,A3TGCN,GCN2_p,GCN2_attention,GCN2_GAT,GAT #GAT:node classification, GAT2_GRU:Link_prediction
-data_type ='reddit' #DBLP3,DBLP5,reddit, Brain
+GCN_type = 'Robust_RGNN' 
+data_type ='DBLP5' 
 attack_type = 'link'# node, link
-attack_method = 'node_embedding'#random_node, random_link,edge_attack #node_embedding
+attack_method = 
 #attack_method =
 defend_method = ''
 perturbation_rate = 0.1
